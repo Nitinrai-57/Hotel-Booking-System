@@ -24,7 +24,7 @@ This approach ensures scalability, fault tolerance, and easier maintenance.
 The platform integrates Razorpay for secure and automated online payments.
 Ensures transaction management to maintain consistency between booking and payment.
 Supports seamless online transactions with error handling and rollback if payment fails.
----
+
 ## RESTful APIs & Inter-Service Communication
 
 Services communicate using RESTful APIs, leveraging:
