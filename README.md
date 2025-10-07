@@ -19,60 +19,45 @@ The hotel booking platform is designed using a microservice architecture. Each s
 
 This approach ensures scalability, fault tolerance, and easier maintenance.
 
-Payment Integration with Razorpay
+## Payment Integration with Razorpay
 
 The platform integrates Razorpay for secure and automated online payments.
-
 Ensures transaction management to maintain consistency between booking and payment.
-
 Supports seamless online transactions with error handling and rollback if payment fails.
-
-RESTful APIs & Inter-Service Communication
+---
+## RESTful APIs & Inter-Service Communication
 
 Services communicate using RESTful APIs, leveraging:
-
 RestTemplate: For synchronous service-to-service calls.
-
 Feign Clients: For simplified declarative HTTP client calls.
-
 Retry, Timeout, and Fallback mechanisms: To ensure reliability during failures.
 
-Service Discovery & Caching
+## Service Discovery & Caching
 
 Eureka Client: Automatically registers services for dynamic discovery.
-
 Redis Caching: Improves performance by storing frequently accessed data.
 
-Webhooks & Notifications
+## Webhooks & Notifications
 
 Implemented webhooks for real-time notifications and external service integration.
-
 Notification Service sends emails/SMS for booking confirmations and payment updates.
 
-Logging & Monitoring
+## Logging & Monitoring
 
 Centralized logging for tracking service activity.
-
 Real-time monitoring helps debug issues and ensures system reliability.
 
-Containerization with Docker
+## Containerization with Docker
 
 All microservices are containerized using Docker.
-
 Ensures consistent environments for development, testing, and production deployment.
 
-Tech Stack
+## Tech Stack
 
-Backend: Java, Spring Boot, Spring Cloud
-
-Databases: MySQL, Redis
-
-Messaging & Event Streaming: Kafka
-
-Service Discovery & Communication: Eureka, Feign Client, RestTemplate
-
-Payment Gateway: Razorpay
-
-Deployment & Containerization: Docker
-
-Other Features: Retry, Timeout, Fallback, Webhooks, Transaction Management, Logging & Monitoring
+- **Backend:** Java, Spring Boot, Spring Cloud
+- **Databases:** MySQL, Redis
+- **Messaging & Event Streaming:** Kafka
+- **Service Discovery & Communication:** Eureka, Feign Client, RestTemplate
+- **Payment Gateway:** Razorpay
+- **Deployment & Containerization:** Docker
+- **Other Features:** Retry, Timeout, Fallback, Webhooks, Transaction Management, Logging & Monitoring
