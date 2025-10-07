@@ -4,36 +4,18 @@ Topics to be Covered
 
 ## Microservice Architecture
 
-Payment Integration with Razorpay
-
-RESTful APIs & Inter-Service Communication
-
-Service Discovery & Caching
-
-Webhooks & Notifications
-
-Logging & Monitoring
-
-Containerization with Docker
-
-Microservice Architecture
-Overview
+### Overview
 
 The hotel booking platform is designed using a microservice architecture. Each service is independent, modular, and responsible for a specific domain:
 
-Hotel Service: Manages hotel information and details.
 
-Room Service: Handles room details and availability.
-
-Inventory Service: Tracks room availability to prevent overbooking.
-
-Booking Service: Manages booking creation, updates, and cancellations.
-
-Payment Service: Handles secure online payments using Razorpay.
-
-User Service: Manages user authentication and profiles.
-
-Notification Service: Sends emails/SMS notifications for bookings and payments.
+- **Hotel Service:** Manages hotel information and details.
+- **Room Service:** Handles room details and availability.
+- **Inventory Service:** Tracks room availability to prevent overbooking.
+- **Booking Service:** Manages booking creation, updates, and cancellations.
+- **Payment Service:** Handles secure online payments using Razorpay.
+- **User Service:** Manages user authentication and profiles.
+- **Notification Service:** Sends emails/SMS notifications for bookings and payments.
 
 This approach ensures scalability, fault tolerance, and easier maintenance.
 
